@@ -1,0 +1,17 @@
+.container{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: solid;
+
+}
+.quick-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.social-m,ul,li{
+    display: flex;
+padding-inline:20px;
+}
