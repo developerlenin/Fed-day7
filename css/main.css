@@ -4,7 +4,7 @@
     margin: 10px;
     margin-left: 60px;
     margin-right: 60px;
-    border: solid;
+    /* border: solid; */
 
 }
 .quick-flex{
@@ -14,4 +14,72 @@
 .social-m,ul,li{
     display: flex;
 padding-inline:20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+.log{
+    font-size: 25px;
+    color: blue;
+    font-style: normal;
+
+}
+.image{
+    background-image: url(../slide-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 442px;
+    width: 1317px;
+     
+
+
+}
+h1{
+    font-style: initial;
+    font-size: 50px;
+    
+}
+p{
+    font-size: 25px;
+}
+button{
+    color: aqua;
+    font-size: 20px;
+
+
+}
+.about-flex{
+    
+    display: flex;
+    margin: 20px;
+    box-shadow: 0 0 10px rgb(102, 89, 80);
+}
+.about-image{
+    background-image: url(../about.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 600px;
+    margin: 20px;
+
+
+    
+}
+.about-us{
+    width: 50%;
+    text-align: center;
+    
+
+
+
+}
+.about{
+display: flex;
 }
