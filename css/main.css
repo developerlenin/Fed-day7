@@ -56,30 +56,106 @@ button{
 
 
 }
-.about-flex{
+/* .about-flex{
     
     display: flex;
     margin: 20px;
     box-shadow: 0 0 10px rgb(102, 89, 80);
+} */
+
+.aboutbox{
+    display: flex;
+
 }
-.about-image{
+.img{
+    width: 50%;
     background-image: url(../about.jpg);
-    background-size: cover;
-    width: 50%;
-    height: 600px;
-    margin: 20px;
-
-
-    
+    background-size:cover;
+    height: 630px;
 }
-.about-us{
+.a-text{
     width: 50%;
+}
+.lotext{
+    display: flex;
+}
+.icon{
+    width: 30%;
+}
+.text-low{
+    width: 70%;
+}
+.uptext h2{
+   color: rgb(54, 73, 80);
+   text-align: center;
+}
+ p{
+    font-size: 20px;
+    padding-left: 35px;
+}
+.ico-1{
+    height: 50%;
+    margin-left: 30%;
+    padding-top: 20%;
+    font-size: 350%;
+    border: solid2 2px black;
+}
+flex-rb{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+ }
+ .box{
+   width: 30%;
+   padding: 10px 15px;
+   border: solid 1px rgb(64, 98, 102);
+   border-top: 0px;
+ 
+ }
+ .box:nth-child(1){
+    border-left: 0px;
+    border-right: 0px;
+ }
+ .box:nth-child(3){
+    border-left: 0px;
+    border-right: 0px;
+ }
+ .box:nth-child(4){
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+ }
+ .box:nth-child(6){
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+ }
+ .box:nth-child(5){
+    border-bottom: 0px;
+ }
+ .box h3{
+    color: rgb(40, 230, 230);
+ }
+ .flex-rew{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ .rewbox{
+    width: 25%;
     text-align: center;
-    
-
-
-
-}
-.about{
-display: flex;
-}
+    box-shadow: 0 0 15px rgb(165, 165, 165);
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white
+ }
+ .rewardbox{
+    background-color: rgb(246, 248, 248);
+ }
+ .rewardbox h2{
+    color: rgb(26, 114, 230);
+ }
