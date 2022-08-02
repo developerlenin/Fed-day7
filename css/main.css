@@ -100,7 +100,15 @@ button{
     font-size: 350%;
     border: solid2 2px black;
 }
-flex-rb{
+
+.ico-2{
+    height: 50%;
+    margin-left: 30%;
+    padding-top: 20%;
+    font-size: 350%;
+    border: solid2 2px black;
+}
+ .flex-rb{  
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -159,3 +167,44 @@ flex-rb{
  .rewardbox h2{
     color: rgb(26, 114, 230);
  }
+ .service-box{
+    text-align: center;
+    color: dimgray;
+    font-size: 40px;
+
+
+ }
+ .service-icon {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+ }
+ .icon1{
+    width: 33.33%;
+    align-items: center;
+    
+
+
+ }
+.iconlink{
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgb(197, 195, 195);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 40%;
+
+} 
+.iconlink i{
+    text-align: center;
+
+}
+hr{
+    width: 20%;
+    columns: blue;
+
+}
