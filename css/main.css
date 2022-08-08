@@ -389,16 +389,33 @@ h1{
 h3{
     text-align: center;
 }
-.team-image1{
-    width: 33.33%;
+.team-image{
     display: flex;
-    
-}
-.team-image1 {
-    width: 25%;
-    height: 300px;
+    width: 100%;
 
 }
+.team-image1{
+    width: 25%;
+    margin: 5px;
+
+
+}
+.team-image1 img{
+    width: 100%;
+}
+
+
+ .team-image1{
+    position: relative;
+    
+ }
+ .team-info{
+    position: absolute;
+    background-color: #919e9e;
+    text-align: center;color: #efefef;
+}
+
+
 .frequently-qa{
     display: flex;
     flex-wrap: wrap;
@@ -464,6 +481,23 @@ h3{
     width: 25%;
     height: 200px;
     box-shadow: 0  0 10px;
+}
+.mail-icon h1 i{
+    font-size: 30px;
+    
+    line-height: 95px;
+
+}
+.call-icon h1 i{
+    font-size: 30px;
+    
+    line-height: 95px;
+
+}
+.flex-icon h1 i{
+    font-size: 30px;
+    
+    line-height: 95px;
 }
 
 .call-us{
